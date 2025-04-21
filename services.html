@@ -2,25 +2,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>QTC Services</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Our Services | QTC</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 1rem;
+        }
+
+        .service-tile {
+            background-color: #1a1a1a;
+            border: 2px solid #00ffcc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .service-tile h3 {
+            color: #00ffcc;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-tile p {
+            color: #aaa;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-tile a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .service-tile a:hover {
+            text-shadow: 0 0 5px #00ffcc;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Our Services</h1>
-  </header>
-  <main>
-    <ul>
-      <li><a href="services/gpu.html">GPUs for AI Training</a></li>
-      <li><a href="services/cyber.html">Cyber Security</a></li>
-      <li><a href="services/awareness.html">Security Awareness Training</a></li>
-      <li><a href="services/mro.html">MRO & PPE Supply</a></li>
-      <li><a href="services/cisco.html">Cisco Refurbished Gear</a></li>
-      <li><a href="services/leads.html">Human Lead Generation</a></li>
-      <li><a href="services/ai.html">AI Consultancy</a></li>
-      <li><a href="services/mining.html">Crypto Mining Solutions</a></li>
-    </ul>
-  </main>
+    <header>
+        <h1>QTC Services</h1>
+        <p>Precision-built, cyberpunk-delivered.</p>
+    </header>
+    <main>
+        <section class="service-grid">
+            <div class="service-tile">
+                <h3>GPUs for AI Training</h3>
+                <p>Enterprise GPU supply with edge-speed delivery.</p>
+                <a href="gpu.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>Cybersecurity Solutions</h3>
+                <p>Resilience with teeth. Infra that bites back.</p>
+                <a href="cyber.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>Security Awareness</h3>
+                <p>OPSEC, OSINT & human firewalls, Wolfie-style.</p>
+                <a href="security-awareness.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>Appointment Booking</h3>
+                <p>Polite persistence meets sales savagery.</p>
+                <a href="appointment.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>IT Procurement</h3>
+                <p>UK distie network access — no fluff, pure value.</p>
+                <a href="procurement.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>PPE & MRO</h3>
+                <p>Mission-critical logistics, deployed on demand.</p>
+                <a href="ppe.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>Cisco Refurbished</h3>
+                <p>CCRE kit. SNTC-backed. Zero grey zones.</p>
+                <a href="cisco.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>AI Consultancy</h3>
+                <p>Prompt mastery. Ethical builds. Lumos-powered.</p>
+                <a href="ai.html">Explore →</a>
+            </div>
+            <div class="service-tile">
+                <h3>Crypto Mining</h3>
+                <p>Hardware only. You mine, you manage. No middlemen.</p>
+                <a href="crypto.html">Explore →</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Quenby Technology Consulting</p>
+    </footer>
 </body>
 </html>

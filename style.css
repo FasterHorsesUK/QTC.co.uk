@@ -61,3 +61,22 @@ footer {
     background-color: #111;
     border-top: 2px solid #00ffcc;
 }
+.hero {
+  background-image: url('images/home-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6); /* optional: darkens text box */
+  padding: 2rem;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+}

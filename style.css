@@ -105,10 +105,12 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  padding: 2rem;
+  text-align: left;
 }
+
 .content ul {
-  list-style-position: inside;
-  text-align: center;
-  padding-left: 0;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  text-align: left;
 }

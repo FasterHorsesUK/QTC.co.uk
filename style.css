@@ -125,3 +125,12 @@ h1, h2, h3, h4, h5, h6 {
 header {
   margin-top: 0.5rem;
 }
+/* ─── erase default top-margin on headings ───────────── */
+header h1,
+header h2,
+header h3 {
+  margin-top: 0;        /* crushes the gap */
+}
+
+/* optional: reduce nav bottom-padding a touch */
+nav { padding-bottom: 0.5rem; }

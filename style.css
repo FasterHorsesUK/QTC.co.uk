@@ -10,9 +10,11 @@ body{
 /* ——— Nav ——— */
 nav{
   background:#0d0d0d;
-  border-bottom:2px solid #00ffcc;   /* cyan bar */
-  padding:0.5rem;                    /* tight gap above & below */
+  border-top:2px solid #00ffcc;     /* ◀︎ bar at top of nav */
+  /* border-bottom:2px solid #00ffcc; */  /* ← delete or comment out */
+  padding:0.5rem;
   text-align:center;
+}
 }
 }
 nav a{

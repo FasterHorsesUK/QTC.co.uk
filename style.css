@@ -102,11 +102,13 @@ nav a:hover {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
+/* Page content wrapper */
 .content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.5rem 2rem 2rem;   /* top | sides | bottom */
   text-align: left;
+}
 }
 
 .content ul {

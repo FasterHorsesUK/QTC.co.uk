@@ -7,13 +7,13 @@ body{
   color:#e0e0e0;
   font-family:"Courier New",Courier,monospace;
 }
-
-/* ─────────────── Nav ──────────────── */
+/* ——— Nav ——— */
 nav{
   background:#0d0d0d;
-  border-bottom:2px solid #00ffcc;
-  padding:0rem 0.5rem 0.5rem;      /* ⬅︎ bottom padding trimmed */
+  border-bottom:2px solid #00ffcc;   /* cyan bar */
+  padding:0.5rem;                    /* tight gap above & below */
   text-align:center;
+}
 }
 nav a{
   margin:0 1rem;
